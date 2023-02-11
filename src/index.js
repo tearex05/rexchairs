@@ -11,7 +11,7 @@ root.render(
   <R>
     <Nav />
     <Routes>
-    <Route exact path='/' element={<App />} />
+    <Route exact path='/rexchairs' element={<App />} />
     </Routes>
   </R>
 );
