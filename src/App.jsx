@@ -99,39 +99,38 @@ function App() {
         </Masonry>
       </section>
       <section
+      data-aos="fade-right"
         id="contact-us"
-        className="w-screen flex justify-center pt-16"
+        className="w-screen h-screen flex justify-center pt-20 flex-col items-center md:flex-row "
       >
-        <div className="bg-slate-900 w-11/12 text-center rounded-xl mt-20 pb-5 flex flex-col items-center md:pb-5 md:pt-10 md:flex-row md:w-4/6 justify-center">
-          <p className="text-white font-light text-3xl px-2 py-5 md:w-1/2">
+          <p className="text-white font-light text-3xl px-2 py-5 w-full text-center md:w-full border-l-8 border-white md:text-4xl">
           If You Have Any Question <br />
-          <span className="font-bold text-6xl">Contact Us</span>
+          <span className="font-bold md:text-7xl text-6xl">Contact Us</span>
         </p>
-        <div className="w-full flex flex-col items-start justify-center text-white text-xl sm:text-2xl w-3/6">
+        <div className="w-full flex flex-col items-center justify-center text-white text-xl sm:text-2xl border-l-8 border-white md:border-0">
           <span className="flex items-center justify-start mb-4">
             <span className="mr-6">
               <PhoneIcon />
             </span>
-            <p className="">111-222-333</p>
+            <p className="md:text-3xl">111-222-333</p>
           </span>
-          <span className="flex items-center justify-start mb-4">
+          <span className="flex items-center justify-start mb-6">
             <span className="ml-1 mr-6">
               <InstaIcon />
             </span>
-            <p className="">@RexChairs</p>
+            <p className="md:text-3xl">@RexChairs</p>
           </span>
-          <span className="flex items-center justify-start mb-4">
+          <span className="flex items-center justify-start mb-4 mr-7 translate-x-9 md:translate-x-10">
             <span className="ml-2 mr-8">
               <AddressIcon />
             </span>
-            <p className="">Rex Av. Chair St.</p>
+            <p className="md:text-3xl">Rex Av. Chair St.</p>
           </span>
         </div>
-        </div>
       </section>
-      <section style={{ backgroundImage: `url(${Pic5})` }} className="text-white w-screen flex flex-col items-center justify-center mt-20 bg-img h-96  mb-20 mt-40" id="buy">
-        <p className="font-bold text-4xl">What Are You Waiting For?</p>
-        <a href="#buy" className="bg-white text-black p-4 mt-3 hover:rounded-3xl">Buy Now</a>
+      <section style={{ backgroundImage: `url(${Pic5})` }} className="text-white w-screen flex flex-col items-center justify-center mt-20 bg-img h-96  mb-20 mt-40 text-center" id="buy">
+        <p className="font-bold text-4xl md:text-6xl">What Are You Waiting For?</p>
+        <a href="#buy" className="bg-white text-black p-4 mt-3 hover:rounded-3xl md:text-2xl text-xl">Buy Now</a>
       </section>
       <footer className="text-white mb-5">
         Created By TeaRex
