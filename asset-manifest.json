@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rexchairs/static/css/main.a8b6b7f7.css",
-    "main.js": "/rexchairs/static/js/main.f73d639f.js",
+    "main.css": "/rexchairs/static/css/main.d2f1a6f8.css",
+    "main.js": "/rexchairs/static/js/main.24f9ca73.js",
     "static/media/pic7.jpg": "/rexchairs/static/media/pic7.43f3a0f7958bea190dfd.jpg",
     "static/media/pic6.jpg": "/rexchairs/static/media/pic6.dd92516401ec557402e3.jpg",
     "static/media/pic8.jpg": "/rexchairs/static/media/pic8.d2fb8a03dda6e85ca7da.jpg",
@@ -12,11 +12,11 @@
     "static/media/pic3.jpg": "/rexchairs/static/media/pic3.e09f0865139164b3dea7.jpg",
     "static/media/pic9.jpg": "/rexchairs/static/media/pic9.9725bfdb90bba29523bd.jpg",
     "index.html": "/rexchairs/index.html",
-    "main.a8b6b7f7.css.map": "/rexchairs/static/css/main.a8b6b7f7.css.map",
-    "main.f73d639f.js.map": "/rexchairs/static/js/main.f73d639f.js.map"
+    "main.d2f1a6f8.css.map": "/rexchairs/static/css/main.d2f1a6f8.css.map",
+    "main.24f9ca73.js.map": "/rexchairs/static/js/main.24f9ca73.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8b6b7f7.css",
-    "static/js/main.f73d639f.js"
+    "static/css/main.d2f1a6f8.css",
+    "static/js/main.24f9ca73.js"
   ]
 }
